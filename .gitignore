@@ -1,0 +1,19 @@
+# --- Power BI Desktop Junk ---
+*.pbi
+*.temp
+*.backup
+# Refuses to track local user-specific layout preferences
+*.pbix.user
+
+# --- Python & Jupyter Notebooks ---
+__pycache__/
+*.py[cod]
+*$*.py
+.ipynb_checkpoints/
+.virtualenv/
+venv/
+ENV/
+
+# --- System & OS Trash ---
+.DS_Store
+Thumbs.db
