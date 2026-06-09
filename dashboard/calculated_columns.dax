@@ -1,0 +1,1 @@
+Delivery_Lead_Time_Days = DATEDIFF(olist_orders_dataset[order_purchase_timestamp], olist_orders_dataset[order_delivered_customer_date], DAY)
